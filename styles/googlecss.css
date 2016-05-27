@@ -1,0 +1,12 @@
+.searchbar {
+    width: 550px;
+    margin-left: 330px;
+    margin-top: 320px;
+    padding: 12px;
+}
+
+.logo {
+    position: absolute;
+    top: -100px; bottom: 0; left: 0; right: -40px;
+    margin: auto;
+}
