@@ -1,13 +1,15 @@
 .searchbar {
     width: 530px;
     margin-left: 350px;
-    margin-top: 320px;
+    margin-top: 305px;
     padding: 8px;
+    padding-bottom: -7px;
+    border: solid 1px #DCDCDC;
 }
 
 .logo {
     position: absolute;
-    top: -40px; bottom: 0; left: 0; right: -40px;
+    top: -30px; bottom: 0; left: 0; right: -40px;
     margin: auto;
     width: 320px;
 }
@@ -17,18 +19,19 @@ ul {
     list-style: none;
     margin: 15px 0 0 0;
     padding: 0;
-    width: 500px;
-    right: -885px;
+    width: 350px;
+    right: -880px;
 }
 li {
     display: inline;
     padding: 10px;
     font-size: 95%;
     color: gray;
+    position: relative;
 }
 li  a{
-    color: black;
     text-decoration: none;
+    color: black;
 }
 li a:hover {
     text-decoration: underline;
@@ -38,12 +41,20 @@ li img {
     width: 20px;
 }
 
+.topleft {
+    top: -4px;
+}
+
+.profile {
+    top:5px;
+}
+
 input[type="text"] {
     font-size: 20px;
     background-image: url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);
     background-repeat: no-repeat;
-    background-size: 25px 30px;
-    background-position: 505px;
+    background-size: 18px 20px;
+    background-position: 515px;
     }
 
 #user {
@@ -71,4 +82,22 @@ input[type="text"] {
     border-style: solid;
     border-color: #BABABA;
     border-width: 0.5px;
+}
+
+.bottombar {
+    width: 1200px;
+    background-color: #EDEDED;
+    font-size: 18px;
+    padding: 15px;
+    top: 80px;
+    right: 5px;
+}
+
+.bottombar li a {
+    color: gray;
+}
+
+.rightside {
+    float: right;
+    top: -10px;
 }
