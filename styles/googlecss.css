@@ -1,8 +1,8 @@
 .searchbar {
-    width: 520px;
+    width: 530px;
     margin-left: 350px;
     margin-top: 320px;
-    padding: 12px;
+    padding: 8px;
 }
 
 .logo {
@@ -24,6 +24,7 @@ li {
     display: inline;
     padding: 10px;
     font-size: 95%;
+    color: gray;
 }
 li  a{
     color: black;
@@ -35,4 +36,39 @@ li a:hover {
 li img {
     height: 20px;
     width: 20px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    background-image: url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);
+    background-repeat: no-repeat;
+    background-size: 25px 30px;
+    background-position: 505px;
+    }
+
+#user {
+    height: 32px;
+    width: 32px;
+}
+
+.button {
+    position: relative;
+    background-color: #F0F0F0;
+    border: none;
+    color: gray;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    right: -455px;
+    top: 35px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #E8E8E8;
+    border-style: solid;
+    border-color: #BABABA;
+    border-width: 0.5px;
 }
