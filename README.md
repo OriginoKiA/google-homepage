@@ -1,2 +1,2 @@
 # google-homepage
-Google homepage copy pratice thing
+Google homepage copy pratice thing for theodinproject
